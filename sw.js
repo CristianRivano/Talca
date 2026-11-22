@@ -1,4 +1,4 @@
-const CACHE = 'talca-3d-v3';
+const CACHE = 'talca-3d-v4';
 const CORE = ['./', './index.html', './city.js', './city.json', './folders.js', './manifest.webmanifest', './talca-logo.svg'];
 
 self.addEventListener('install', event => {

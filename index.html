@@ -42,8 +42,7 @@
     #scene canvas { display: block; width: 100%; height: 100%; touch-action: none; }
     body.map-only .site-header,
     body.map-only .panel,
-    body.map-only .legend,
-    body.map-only .credit { display: none !important; }
+    body.map-only .legend { display: none !important; }
     .site-header, .panel, .legend, .credit { position: fixed; z-index: 3; }
     .site-header {
       top: max(22px, env(safe-area-inset-top, 0px));
@@ -103,7 +102,12 @@
     .legend strong { color: var(--color-text-primary); font-weight: 600; }
     .legend-key { display: flex; gap: 8px; align-items: center; margin-top: 8px; }
     .legend-dot { width: 8px; height: 8px; background: var(--color-accent-gold); border-radius: 50%; box-shadow: 0 0 0 4px rgba(229,168,83,.15); }
-    .credit { right: max(16px, env(safe-area-inset-right, 0px)); bottom: max(12px, env(safe-area-inset-bottom, 0px)); color: rgba(253,243,231,.62); font-size: .65rem; }
+    .credit {
+      right: max(10px, env(safe-area-inset-right, 0px)); bottom: max(10px, env(safe-area-inset-bottom, 0px));
+      max-width: calc(100vw - 20px); padding: 4px 6px; border-radius: 4px;
+      color: rgba(253,243,231,.88); background: rgba(20,18,18,.48); font-size: .58rem;
+      line-height: 1.35; text-align: right; pointer-events: none;
+    }
     #err { color: #f2b4a4; font-size: .78rem; }
     @keyframes rise-in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
     @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
@@ -124,7 +128,7 @@
       .note { display: none; }
       #info { min-height: 73px; padding-top: 10px; }
       #info b { font-size: 1rem; margin-bottom: 5px; }
-      .credit { display: none; }
+      body:not(.map-only) .credit { display: none; }
     }
   </style>
 </head>
@@ -159,7 +163,7 @@
     <p><strong>Orbit controls</strong><br>Muévete alrededor de la trama urbana y descubre sus hitos.</p>
     <div class="legend-key"><span class="legend-dot"></span><span>Edificio seleccionado</span></div>
   </aside>
-  <div class="credit">Datos abiertos: OpenStreetMap · ODbL</div>
+  <div class="credit">Datos: OpenStreetMap · ODbL — Imágenes: Esri, Vantor, Earthstar Geographics y GIS User Community</div>
   <script src="city.js"></script>
   <script src="folders.js"></script>
   <script>
@@ -188,7 +192,7 @@
 <script>
 const STYLES = {
   real: {
-    sky: 0x30141b, ground: 0x3b141a, road: 0x241116, park: 0x596646, water: 0x476d73,
+    sky: 0x30141b, ground: 0x3b141a, road: 0x707477, park: 0x596646, water: 0x476d73,
     square: 0x81634d, pitch: 0x9a6a43, roof: 0x6c3b3e, trunk: 0x4d3028, crown: 0x596d48, fog: true,
     building: b => colourOf(b.colour) ?? heightColour(b.height),
     edges: false,
@@ -207,6 +211,7 @@ function colourOf(c) {
 
 const host = document.getElementById('scene');
 const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.outputEncoding = THREE.sRGBEncoding;
 const isMobile = matchMedia('(max-width: 680px)').matches || /Android|iPhone|iPad/i.test(navigator.userAgent);
 renderer.setPixelRatio(Math.min(devicePixelRatio, isMobile ? 1.25 : 1.75));
 renderer.shadowMap.enabled = !isMobile;
@@ -234,6 +239,45 @@ let viewMode = 'perspective';
 let homePerspective = null;
 const layerState = { buildings: true, roads: true, areas: true, trees: true };
 const pickables = [];
+const SATELLITE_WIDTH = 3200;
+const SATELLITE_DEPTH = 2000;
+let satelliteTexture = null;
+let satelliteLoading = false;
+
+function satelliteExportUrl() {
+  const [lat, lon] = data.origin || data.center;
+  const phi = lat * Math.PI / 180, cosLat = Math.cos(phi), radius = 6378137;
+  const cx = radius * lon * Math.PI / 180;
+  const cy = radius * Math.log(Math.tan(Math.PI / 4 + phi / 2));
+  const width = SATELLITE_WIDTH / cosLat, height = SATELLITE_DEPTH / cosLat;
+  const bbox = [cx - width / 2, cy - height / 2, cx + width / 2, cy + height / 2]
+    .map(value => value.toFixed(3)).join(',');
+  const params = new URLSearchParams({
+    bbox, bboxSR: '3857', imageSR: '3857', size: '3072,1920', format: 'jpg',
+    f: 'image', transparent: 'false', dpi: '96'
+  });
+  return `https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?${params}`;
+}
+
+function loadSatelliteTexture() {
+  if (!data || satelliteTexture || satelliteLoading) return;
+  satelliteLoading = true;
+  const loader = new THREE.TextureLoader();
+  loader.setCrossOrigin('anonymous');
+  loader.load(satelliteExportUrl(), texture => {
+    texture.encoding = THREE.sRGBEncoding;
+    texture.wrapS = texture.wrapT = THREE.ClampToEdgeWrapping;
+    texture.minFilter = THREE.LinearMipmapLinearFilter;
+    texture.magFilter = THREE.LinearFilter;
+    texture.anisotropy = Math.min(8, renderer.capabilities.getMaxAnisotropy());
+    satelliteTexture = texture;
+    satelliteLoading = false;
+    build();
+  }, undefined, error => {
+    satelliteLoading = false;
+    console.warn('No se pudo cargar la textura satelital; se mantiene el terreno base.', error);
+  });
+}
 
 function heightColour(height = 0) {
   const t = Math.max(0, Math.min(1, (height - 2.5) / 25));
@@ -351,6 +395,39 @@ function mat(color) {
     : new THREE.MeshStandardMaterial({ color, roughness: 0.9, metalness: 0 });
 }
 
+function georeferenceSatelliteUV(geometry, capsOnly = false) {
+  const positions = geometry.attributes.position;
+  let uv = geometry.attributes.uv;
+  if (!uv) {
+    uv = new THREE.BufferAttribute(new Float32Array(positions.count * 2), 2);
+    geometry.setAttribute('uv', uv);
+  }
+  const indices = geometry.index;
+  const groups = capsOnly
+    ? geometry.groups.filter(group => group.materialIndex === 0)
+    : [{ start: 0, count: indices ? indices.count : positions.count }];
+  for (const group of groups) {
+    for (let i = group.start; i < group.start + group.count; i++) {
+      const vertex = indices ? indices.getX(i) : i;
+      const east = positions.getX(vertex), north = -positions.getZ(vertex);
+      uv.setXY(vertex, (east + SATELLITE_WIDTH / 2) / SATELLITE_WIDTH,
+        (north + SATELLITE_DEPTH / 2) / SATELLITE_DEPTH);
+    }
+  }
+  uv.needsUpdate = true;
+}
+
+function satelliteRoofMaterial(color, geometry, capsOnly = false) {
+  const material = mat(color);
+  if (style === 'real' && satelliteTexture) {
+    georeferenceSatelliteUV(geometry, capsOnly);
+    material.map = satelliteTexture;
+    material.color.setHex(0xffffff);
+    material.needsUpdate = true;
+  }
+  return material;
+}
+
 function build() {
   if (world) scene.remove(world);
   pickables.length = 0;
@@ -366,17 +443,37 @@ function build() {
   ground.userData.layer = 'terrain';
   ground.receiveShadow = true;
   world.add(ground);
+  if (style === 'real' && satelliteTexture) {
+    const imageGround = new THREE.Mesh(new THREE.PlaneGeometry(SATELLITE_WIDTH, SATELLITE_DEPTH),
+      new THREE.MeshBasicMaterial({ map: satelliteTexture, side: THREE.DoubleSide, toneMapped: false, fog: false }));
+    imageGround.rotation.x = -Math.PI / 2;
+    imageGround.position.y = 0.02;
+    imageGround.userData.layer = 'terrain';
+    world.add(imageGround);
+  }
 
   for (const a of data.areas) {
     if (a.polygon.length < 3) continue;
-    const m = new THREE.Mesh(flat(a.polygon.map(([x, y]) => [x, y]), 0.05), mat(S[a.kind] ?? S.park));
+    const areaMaterial = mat(S[a.kind] ?? S.park);
+    if (style === 'real' && satelliteTexture) {
+      areaMaterial.transparent = true;
+      areaMaterial.opacity = 0.28;
+      areaMaterial.depthWrite = false;
+    }
+    const m = new THREE.Mesh(flat(a.polygon.map(([x, y]) => [x, y]), 0.05), areaMaterial);
     m.material.side = THREE.DoubleSide;
     m.userData.layer = 'areas';
     m.receiveShadow = true;
     world.add(m);
   }
   for (const r of data.roads) {
-    const m = new THREE.Mesh(ribbon(r.line, r.width, 0.1), mat(S.road));
+    const roadMaterial = mat(S.road);
+    if (style === 'real' && satelliteTexture) {
+      roadMaterial.transparent = true;
+      roadMaterial.opacity = 0.28;
+      roadMaterial.depthWrite = false;
+    }
+    const m = new THREE.Mesh(ribbon(r.line, r.width, 0.1), roadMaterial);
     m.material.side = THREE.DoubleSide;
     m.userData.layer = 'roads';
     m.receiveShadow = true;
@@ -394,13 +491,14 @@ function build() {
     const wallColour = S.building(b);
     const roofColour = style === 'real' ? (colourOf(b.roof_colour) ?? S.roof) : S.roof;
     // ExtrudeGeometry groups: 0 = caps (roof/floor), 1 = walls
-    const m = new THREE.Mesh(g, [mat(roofColour), wallMat(wallColour, b)]);
+    const m = new THREE.Mesh(g, [satelliteRoofMaterial(roofColour, g, true), wallMat(wallColour, b)]);
     m.castShadow = m.receiveShadow = true;
     m.userData = { ...b, layer: 'buildings' };
     world.add(m);
     pickables.push(m);
     if (rh > 0) {
-      const r = new THREE.Mesh(pyramid(b.footprint, wallTop, rh), mat(roofColour));
+      const pyramidGeometry = pyramid(b.footprint, wallTop, rh);
+      const r = new THREE.Mesh(pyramidGeometry, satelliteRoofMaterial(roofColour, pyramidGeometry));
       r.castShadow = true;
       r.userData = m.userData;
       world.add(r);
@@ -561,6 +659,7 @@ resize();
   controls.target.set(0, d.radius < 150 ? maxH * 0.4 : 0, 0);
   homePerspective = { position: camera.position.clone(), target: controls.target.clone() };
   build();
+  loadSatelliteTexture();
   const centre = pickables.filter(p => d.focus && p.userData.name === d.focus)
       .sort((a, b) => b.userData.area_m2 - a.userData.area_m2)[0] ||
     pickables.slice().sort((a, b) => a.userData.dist_m - b.userData.dist_m)[0];
