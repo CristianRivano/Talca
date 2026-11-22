@@ -1,0 +1,287 @@
+id,name,address,type,part,has_parts,levels,height,base,levels_known,roof,colour,material,area_m2,dist_m,x,y,osm_url
+223617018,,,roof,False,False,1,3.5,0.0,False,flat,,,61.6,34,33.5,-2.5,https://www.openstreetmap.org/way/223617018
+939131659,,Raúl Silva Henríquez (1 Poniente) 1133,yes,False,False,2,5.6,0.0,True,flat,,,187.5,72,-69.8,17.0,https://www.openstreetmap.org/way/939131659
+813755289,Casa Central - Universidad de Talca,Raúl Silva Henríquez (1 Poniente),university,False,False,4,11.4,0.0,True,flat,,,451.6,75,-74.3,-6.5,https://www.openstreetmap.org/way/813755289
+944738558,,,yes,False,False,2,5.6,0.0,True,flat,,,174.5,80,-10.8,78.9,https://www.openstreetmap.org/way/944738558
+941592849,,Calle 1 Norte 763,yes,False,False,3,8.4,0.0,True,flat,,,167.1,83,30.7,77.2,https://www.openstreetmap.org/way/941592849
+941980882,,Calle 1 Sur,yes,False,False,4,11.2,0.0,True,flat,,,558.5,83,7.4,-82.8,https://www.openstreetmap.org/way/941980882
+191869528,Tesoreria Regional Talca,,yes,False,False,4,15.0,0.0,True,flat,,,210.1,85,81.3,-25.2,https://www.openstreetmap.org/way/191869528
+310597000,CORFO,Calle 1 Norte 739,public,False,False,2,5.6,0.0,True,flat,,,375.6,85,1.1,84.8,https://www.openstreetmap.org/way/310597000
+941674694,BCI,Calle 1 Sur 732,yes,False,False,4,11.2,0.0,True,flat,,,505.6,85,-24.8,-81.1,https://www.openstreetmap.org/way/941674694
+798980080,,,yes,False,False,5,17.0,0.0,True,flat,,,34.6,87,-65.8,57.6,https://www.openstreetmap.org/way/798980080
+310596999,,Calle 1 Norte 757,public,False,False,2,5.6,0.0,True,flat,,,342.3,90,19.8,87.4,https://www.openstreetmap.org/way/310596999
+843566423,,Raúl Silva Henríquez (1 Poniente) 1121,commercial,False,False,2,5.6,0.0,True,flat,,,490.5,91,-86.6,-28.6,https://www.openstreetmap.org/way/843566423
+843566419,,Calle 1 Sur 687,commercial,False,False,2,5.6,0.0,True,flat,,,260.5,92,-80.9,-43.0,https://www.openstreetmap.org/way/843566419
+952165722,,,yes,False,False,1,2.8,0.0,True,flat,,,499.6,92,-89.7,22.3,https://www.openstreetmap.org/way/952165722
+813330085,Edificio O'Higgins,Calle 1 Sur 806,yes,False,False,2,5.6,0.0,True,flat,,,700.6,96,36.9,-88.6,https://www.openstreetmap.org/way/813330085
+941980883,,Calle 1 Sur,yes,False,False,1,2.8,0.0,True,flat,,,81.2,98,-26.7,-94.1,https://www.openstreetmap.org/way/941980883
+214849867,Edificio de los Servicios Públicos,,public,False,False,4,15.0,0.0,True,flat,,,1935.0,99,99.0,-4.0,https://www.openstreetmap.org/way/214849867
+275506471,Gobierno Regional del Maule,Calle 1 Norte 771,public,False,False,10,28.0,0.0,True,flat,,,1102.8,99,-29.3,94.1,https://www.openstreetmap.org/way/275506471
+275506476,Antigua Intendencia Región del Maule,Calle 1 Norte,yes,False,False,2,5.6,0.0,True,flat,,,1180.9,103,98.1,29.9,https://www.openstreetmap.org/way/275506476
+310186641,Ilustre Municipalidad de Talca,Calle 1 Norte,yes,False,False,2,5.6,0.0,True,flat,,,627.6,103,52.0,88.7,https://www.openstreetmap.org/way/310186641
+842604130,cine plaza,Calle 1 Sur 770,yes,False,False,3,10.0,0.0,False,flat,,,958.1,105,10.5,-104.9,https://www.openstreetmap.org/way/842604130
+114237041,Catedral de San Agustín,Calle 1 Norte,yes,False,False,5,14.0,0.0,True,flat,,,1673.1,106,-97.4,42.4,https://www.openstreetmap.org/way/114237041
+941674695,,,yes,False,False,1,2.8,0.0,True,flat,,,386.9,109,-22.7,-106.1,https://www.openstreetmap.org/way/941674695
+842604131,Oriencoop,Calle 1 Sur 814,yes,False,False,2,5.6,0.0,True,flat,,,287.4,114,71.7,-88.4,https://www.openstreetmap.org/way/842604131
+309684101,Edificio Campanario,Cardenal Raúl Silva Henríquez,yes,False,False,4,11.2,0.0,True,flat,,,245.2,117,-44.7,-108.6,https://www.openstreetmap.org/way/309684101
+275506477,Edificio Cervantes,Calle 1 Sur,yes,False,False,7,19.6,0.0,True,flat,,,1404.1,118,108.1,-47.5,https://www.openstreetmap.org/way/275506477
+818950433,,,yes,False,False,3,10.0,0.0,False,flat,,,165.3,120,119.4,-7.4,https://www.openstreetmap.org/way/818950433
+842604132,,Calle 1 Sur 818,yes,False,False,2,5.6,0.0,True,flat,,,310.4,120,80.8,-89.4,https://www.openstreetmap.org/way/842604132
+952165755,,,yes,False,False,1,2.8,0.0,True,flat,,,86.8,120,24.1,117.6,https://www.openstreetmap.org/way/952165755
+941980881,,Calle 1 Oriente,yes,False,False,2,5.6,0.0,True,flat,,,700.5,121,33.7,-115.9,https://www.openstreetmap.org/way/941980881
+565220652,Edificio Plaza Centro,Calle 1 Norte 801,yes,False,False,12,33.6,0.0,True,flat,,,707.8,122,89.3,83.7,https://www.openstreetmap.org/way/565220652
+939148476,,Calle 1 Norte,yes,False,False,1,2.5,0.0,True,flat,,,88.2,126,-92.2,85.8,https://www.openstreetmap.org/way/939148476
+842637397,Chilexpress,Calle 1 Sur 820,yes,False,False,2,5.6,0.0,True,flat,,,162.7,127,90.4,-89.8,https://www.openstreetmap.org/way/842637397
+952097288,,,yes,False,False,1,2.8,0.0,True,flat,,,106.6,127,-21.4,-125.0,https://www.openstreetmap.org/way/952097288
+392084816,Edificio Plaza Talca,Calle 1 Sur 680,yes,False,False,13,36.4,0.0,True,flat,,,1658.1,128,-92.1,-89.6,https://www.openstreetmap.org/way/392084816
+941980880,,Calle 1 Oriente,yes,False,False,1,2.8,0.0,True,flat,,,129.1,132,69.6,-112.2,https://www.openstreetmap.org/way/941980880
+818950426,,,yes,False,False,3,10.0,0.0,False,flat,,,22.8,133,132.7,-10.9,https://www.openstreetmap.org/way/818950426
+842637398,AFP Habitat,Calle 1 Sur 840,yes,False,False,3,8.4,0.0,True,flat,,,304.1,134,98.1,-90.6,https://www.openstreetmap.org/way/842637398
+818950432,,,yes,False,False,3,10.0,0.0,False,flat,,,40.6,137,130.9,38.7,https://www.openstreetmap.org/way/818950432
+818950428,,,yes,False,False,3,10.0,0.0,False,flat,,,46.4,138,124.8,-58.0,https://www.openstreetmap.org/way/818950428
+818950427,,,yes,False,False,2,5.6,0.0,True,flat,,,302.3,139,137.1,-21.0,https://www.openstreetmap.org/way/818950427
+281752341,,,yes,False,False,1,3.0,0.0,True,flat,,,137.0,140,85.2,111.0,https://www.openstreetmap.org/way/281752341
+939226204,,Calle 2 Sur,yes,False,False,2,5.6,0.0,True,flat,,,803.1,140,3.2,-139.9,https://www.openstreetmap.org/way/939226204
+310186640,Hotel Terrabella,Calle 1 Sur,yes,False,False,2,5.6,0.0,True,flat,,,417.1,141,-138.7,-27.2,https://www.openstreetmap.org/way/310186640
+952165769,,,house,False,False,1,2.8,0.0,True,flat,,,308.8,142,-138.2,31.3,https://www.openstreetmap.org/way/952165769
+275506480,Centro Español,Calle 1 Oriente,yes,False,False,2,5.6,0.0,True,flat,,,535.5,145,29.2,-141.8,https://www.openstreetmap.org/way/275506480
+939148487,,Calle 1 Sur,yes,False,False,2,5.6,0.0,True,flat,,,310.4,145,113.7,-90.6,https://www.openstreetmap.org/way/939148487
+818950429,Banco Santander,Calle 1 Sur 853,yes,False,False,2,5.6,0.0,True,flat,,,708.8,146,135.4,-55.5,https://www.openstreetmap.org/way/818950429
+941980879,,Calle 1 Oriente,yes,False,False,3,8.4,0.0,True,flat,,,534.4,146,80.7,-121.5,https://www.openstreetmap.org/way/941980879
+275506474,,Calle 1 Norte,yes,False,False,3,8.4,0.0,True,flat,,,461.1,147,117.8,87.3,https://www.openstreetmap.org/way/275506474
+660195968,Caja Los Andes,Calle 1 Norte 862,yes,False,False,2,5.6,0.0,True,flat,,,440.5,148,145.9,26.4,https://www.openstreetmap.org/way/660195968
+824660322,,Cardenal Raúl Silva Henríquez,yes,False,False,2,5.6,0.0,True,flat,,,838.1,148,-43.2,-141.3,https://www.openstreetmap.org/way/824660322
+281752344,Ministerio de Obras Públicas,Calle 1 Oriente,yes,False,False,3,10.0,0.0,True,flat,,,753.8,151,51.5,141.7,https://www.openstreetmap.org/way/281752344
+392084817,Edificio Plaza Talca,Calle 1 Sur 660,yes,False,False,13,36.4,0.0,True,flat,,,1585.3,151,-126.4,-82.6,https://www.openstreetmap.org/way/392084817
+842629847,Oriencoop,Calle 1 Sur 866,yes,False,False,2,5.6,0.0,True,flat,,,253.1,157,125.3,-95.2,https://www.openstreetmap.org/way/842629847
+1126599774,,,apartments,False,False,5,16.0,0.0,False,flat,,,1505.7,157,-10.3,156.5,https://www.openstreetmap.org/way/1126599774
+939148479,,Calle 1 Norte,house,False,False,2,5.0,0.0,True,flat,,,161.7,158,-143.4,65.7,https://www.openstreetmap.org/way/939148479
+813330079,Contraloría Regional Maule,Calle 1 Norte 665,civic,False,False,3,8.4,0.0,True,flat,,,828.4,160,-115.6,110.3,https://www.openstreetmap.org/way/813330079
+939148485,,Calle 1 Sur,house,False,False,3,7.5,0.0,True,flat,,,149.5,161,-158.4,-27.6,https://www.openstreetmap.org/way/939148485
+939148477,,Calle 1 Norte,yes,False,False,2,5.6,0.0,True,flat,,,232.3,163,-127.3,102.1,https://www.openstreetmap.org/way/939148477
+310246574,Torre Talca,Calle 2 Oriente,public,False,False,12,33.6,0.0,True,flat,,,291.2,164,160.6,-30.6,https://www.openstreetmap.org/way/310246574
+945817751,,2 Poniente,house,False,False,1,2.8,0.0,True,flat,,,74.1,165,-159.5,40.1,https://www.openstreetmap.org/way/945817751
+939226203,,Calle 2 Sur,yes,False,False,2,5.6,0.0,True,flat,,,157.6,166,-15.5,-165.6,https://www.openstreetmap.org/way/939226203
+818950431,,Calle 1 Norte,yes,False,False,2,5.6,0.0,True,flat,,,233.1,167,163.7,32.1,https://www.openstreetmap.org/way/818950431
+952097292,,,yes,False,False,2,5.6,0.0,True,flat,,,310.0,167,137.9,-93.4,https://www.openstreetmap.org/way/952097292
+275506481,Clinicia Dental Pacifico,Calle 1 Norte,yes,False,False,3,8.4,0.0,True,flat,,,527.1,168,145.1,85.0,https://www.openstreetmap.org/way/275506481
+939148481,,2 Poniente,yes,False,False,2,5.6,0.0,True,flat,,,322.8,168,-167.9,1.4,https://www.openstreetmap.org/way/939148481
+818950425,,Calle 1 Sur 873,yes,False,False,3,8.4,0.0,True,flat,,,377.1,169,158.0,-59.6,https://www.openstreetmap.org/way/818950425
+1180109442,La Araucana,Calle 2 Norte 740,yes,False,False,4,11.2,0.0,True,flat,,,197.8,169,6.0,168.6,https://www.openstreetmap.org/way/1180109442
+939148449,,Cardenal Raúl Silva Henríquez,yes,False,False,2,5.6,0.0,True,flat,,,195.9,170,-61.8,157.9,https://www.openstreetmap.org/way/939148449
+939226202,,Calle 2 Sur,yes,False,False,2,5.6,0.0,True,flat,,,318.1,171,10.4,-171.0,https://www.openstreetmap.org/way/939226202
+941674693,,Calle 1 Sur,house,False,False,2,5.0,0.0,True,flat,,,182.8,172,-160.7,-61.2,https://www.openstreetmap.org/way/941674693
+843555140,Masvida,Calle 1 Sur 605,yes,False,False,1,2.8,0.0,True,flat,,,279.9,173,-171.5,-22.3,https://www.openstreetmap.org/way/843555140
+939148478,,2 Poniente,yes,False,False,3,8.4,0.0,True,flat,,,578.3,173,-161.1,63.7,https://www.openstreetmap.org/way/939148478
+939148482,,2 Poniente,house,False,False,1,2.5,0.0,True,flat,,,43.8,173,-172.6,16.7,https://www.openstreetmap.org/way/939148482
+939226201,,Calle 2 Sur 795,yes,False,False,3,8.4,0.0,True,flat,,,470.4,174,31.5,-171.2,https://www.openstreetmap.org/way/939226201
+275506472,,,yes,False,False,3,10.0,0.0,False,flat,,,696.0,176,132.9,115.3,https://www.openstreetmap.org/way/275506472
+939148450,,Cardenal Raúl Silva Henríquez,yes,False,False,1,2.8,0.0,True,flat,,,48.3,178,-54.9,169.1,https://www.openstreetmap.org/way/939148450
+565220653,Fundación Las Rosas,Calle 1 Norte,yes,False,False,1,2.5,0.0,True,flat,,,364.1,179,-147.2,102.6,https://www.openstreetmap.org/way/565220653
+1180109439,,,yes,False,False,3,10.0,0.0,False,flat,,,309.4,180,58.9,170.2,https://www.openstreetmap.org/way/1180109439
+818950422,,,yes,False,False,3,10.0,0.0,False,flat,,,190.3,181,180.4,-13.4,https://www.openstreetmap.org/way/818950422
+939148462,,,yes,False,False,1,3.0,0.0,True,flat,,,78.8,182,91.9,156.6,https://www.openstreetmap.org/way/939148462
+952165762,,,house,False,False,1,2.8,0.0,True,flat,,,100.3,182,-62.9,170.8,https://www.openstreetmap.org/way/952165762
+670711961,Pronto Copec,Calle 2 Sur,yes,False,False,3,10.0,0.0,False,flat,,,108.5,183,78.1,-165.6,https://www.openstreetmap.org/way/670711961
+818950423,,,yes,False,False,3,10.0,0.0,False,flat,,,406.4,183,179.3,-34.1,https://www.openstreetmap.org/way/818950423
+1180109441,La Araucana,Calle 2 Norte 740,yes,False,False,4,11.2,0.0,True,flat,,,198.9,183,4.9,183.3,https://www.openstreetmap.org/way/1180109441
+818950430,Notaria Durán,Calle 1 Norte,yes,False,False,2,5.6,0.0,True,flat,,,168.9,184,180.3,34.9,https://www.openstreetmap.org/way/818950430
+939148463,,,yes,False,False,1,3.0,0.0,True,flat,,,574.8,184,111.8,146.4,https://www.openstreetmap.org/way/939148463
+939148486,,Calle 1 Sur,house,False,False,2,5.0,0.0,True,flat,,,181.2,185,-176.1,-57.0,https://www.openstreetmap.org/way/939148486
+214849869,Museo O'Higginiano y de Bellas Artes de Talca,Calle 1 Norte 875,yes,False,False,1,3.0,0.0,True,flat,,,1627.3,186,166.6,83.2,https://www.openstreetmap.org/way/214849869
+360216847,Edificio Los Dominicos,Calle 2 Sur 665,residential,False,False,14,39.2,0.0,True,flat,,,1583.2,187,-111.3,-150.4,https://www.openstreetmap.org/way/360216847
+818950424,Banco Paris,Calle 1 Sur 899,yes,False,False,3,8.4,0.0,True,flat,,,246.0,188,176.4,-64.7,https://www.openstreetmap.org/way/818950424
+813330082,Serviu Maule,Calle 2 Norte 720,yes,False,False,4,11.2,0.0,True,flat,,,949.1,189,-16.6,188.0,https://www.openstreetmap.org/way/813330082
+944738559,,Avenida Isidoro del Solar 51,house,False,False,1,2.5,0.0,True,flat,,,73.8,190,-128.0,140.9,https://www.openstreetmap.org/way/944738559
+952097293,,,house,False,False,1,2.8,0.0,True,flat,,,286.2,190,139.8,-128.3,https://www.openstreetmap.org/way/952097293
+952165759,,,yes,False,False,1,2.8,0.0,True,flat,,,512.8,190,-143.4,-124.7,https://www.openstreetmap.org/way/952165759
+939148461,,,yes,False,False,2,7.0,0.0,True,flat,,,191.8,191,91.4,167.7,https://www.openstreetmap.org/way/939148461
+275506463,Edificio Caracol,Calle 2 Oriente,commercial,False,False,2,5.6,0.0,True,flat,,,589.2,193,162.5,-104.7,https://www.openstreetmap.org/way/275506463
+952165768,,,house,False,False,1,2.8,0.0,True,flat,,,307.0,193,-163.1,103.4,https://www.openstreetmap.org/way/952165768
+939148454,,Calle 2 Norte,yes,False,False,2,5.6,0.0,True,flat,,,212.5,194,40.4,190.2,https://www.openstreetmap.org/way/939148454
+952165760,,,yes,False,False,1,2.8,0.0,True,flat,,,254.7,194,-59.2,185.1,https://www.openstreetmap.org/way/952165760
+281752345,La Araucana,Calle 2 Norte 740,yes,False,False,4,11.2,0.0,True,flat,,,248.7,195,8.1,194.9,https://www.openstreetmap.org/way/281752345
+563186913,,,roof,False,False,1,3.5,0.0,False,flat,,,78.0,195,75.4,-179.8,https://www.openstreetmap.org/way/563186913
+939226218,,2 Poniente,house,False,False,1,2.5,0.0,True,flat,,,141.5,195,-178.4,-79.4,https://www.openstreetmap.org/way/939226218
+1180109440,CGE,,yes,False,False,3,10.0,0.0,False,flat,,,425.6,195,61.8,184.5,https://www.openstreetmap.org/way/1180109440
+939148453,,,yes,False,False,2,7.0,0.0,True,flat,,,146.8,197,26.6,194.8,https://www.openstreetmap.org/way/939148453
+939148484,,2 Poniente,house,False,False,1,2.5,0.0,True,flat,,,66.2,199,-198.9,0.1,https://www.openstreetmap.org/way/939148484
+939148483,,2 Poniente,house,False,False,1,2.5,0.0,True,flat,,,99.8,200,-200.0,-11.1,https://www.openstreetmap.org/way/939148483
+952165752,,,yes,False,False,1,2.8,0.0,True,flat,,,186.2,200,137.0,146.0,https://www.openstreetmap.org/way/952165752
+939148460,,,yes,False,False,1,3.0,0.0,True,flat,,,21.7,201,90.5,179.8,https://www.openstreetmap.org/way/939148460
+939226217,,2 Poniente 1060,house,False,False,2,5.0,0.0,True,flat,,,79.5,202,-179.4,-92.4,https://www.openstreetmap.org/way/939226217
+944738560,,Avenida Isidoro del Solar 63,house,False,False,1,2.5,0.0,True,flat,,,133.0,202,-134.6,150.1,https://www.openstreetmap.org/way/944738560
+952165767,,,house,False,False,1,2.8,0.0,True,flat,,,314.2,202,-155.3,129.5,https://www.openstreetmap.org/way/952165767
+952165751,,,yes,False,False,1,2.8,0.0,True,flat,,,175.1,203,146.3,141.0,https://www.openstreetmap.org/way/952165751
+952165761,,,house,False,False,1,2.8,0.0,True,flat,,,207.6,203,-78.8,187.3,https://www.openstreetmap.org/way/952165761
+939148448,,Cardenal Raúl Silva Henríquez,yes,False,False,2,5.0,0.0,True,flat,,,134.3,204,-54.1,196.5,https://www.openstreetmap.org/way/939148448
+939148480,,2 Poniente,house,False,False,1,2.5,0.0,True,flat,,,252.9,204,-194.4,61.2,https://www.openstreetmap.org/way/939148480
+952165763,,,house,False,False,1,2.8,0.0,True,flat,,,89.2,204,-99.3,177.8,https://www.openstreetmap.org/way/952165763
+565185275,Optica M.M,Calle 2 Sur 760,yes,False,False,1,2.8,0.0,True,flat,,,41.2,205,-16.5,-203.9,https://www.openstreetmap.org/way/565185275
+944738562,,Avenida Isidoro del Solar,house,False,False,2,5.0,0.0,True,flat,,,161.1,205,-110.1,173.3,https://www.openstreetmap.org/way/944738562
+799509092,,,yes,False,False,3,10.0,0.0,True,flat,,,22.7,206,-205.2,-16.6,https://www.openstreetmap.org/way/799509092
+952821756,,,yes,False,False,2,5.6,0.0,True,flat,,,79.3,206,-25.6,-204.1,https://www.openstreetmap.org/way/952821756
+939148488,Socorro,Calle 1 Sur 901,yes,False,False,1,3.0,0.0,True,flat,,,174.7,208,197.9,-63.9,https://www.openstreetmap.org/way/939148488
+939226207,,Calle 2 Sur,house,False,False,1,2.5,0.0,True,flat,,,47.7,208,-51.5,-201.8,https://www.openstreetmap.org/way/939226207
+941980853,,2 Poniente,house,False,False,1,2.5,0.0,True,flat,,,53.9,208,-168.2,123.1,https://www.openstreetmap.org/way/941980853
+952165770,,,house,False,False,1,2.8,0.0,True,flat,,,490.0,208,-204.8,34.7,https://www.openstreetmap.org/way/952165770
+392092985,Winnie the Pooh,2 poniente 1139,yes,False,False,1,2.8,0.0,True,flat,,,463.7,209,-207.8,17.2,https://www.openstreetmap.org/way/392092985
+939226205,,Calle 2 Sur,yes,False,False,2,5.6,0.0,True,flat,,,157.1,209,-37.4,-205.3,https://www.openstreetmap.org/way/939226205
+939226199,,Calle 2 Sur,yes,False,False,3,8.4,0.0,True,flat,,,313.1,210,116.9,-174.4,https://www.openstreetmap.org/way/939226199
+939226206,,Calle 2 Sur 706,house,False,False,1,2.5,0.0,True,flat,,,127.2,211,-63.7,-200.8,https://www.openstreetmap.org/way/939226206
+952165724,,,yes,False,False,1,2.8,0.0,True,flat,,,648.7,211,210.4,-10.6,https://www.openstreetmap.org/way/952165724
+939226208,Los héroes,Calle 2 Sur,yes,False,False,2,5.6,0.0,True,flat,,,476.3,212,-151.0,-149.2,https://www.openstreetmap.org/way/939226208
+952097290,,,yes,False,False,4,11.2,0.0,True,flat,,,171.5,212,167.8,-129.3,https://www.openstreetmap.org/way/952097290
+939148459,,Calle 2 Norte 810,yes,False,False,2,5.6,0.0,True,flat,,,71.8,213,89.9,193.6,https://www.openstreetmap.org/way/939148459
+939226216,,2 Poniente 1040-1050,house,False,False,2,5.0,0.0,True,flat,,,120.1,213,-178.4,-116.4,https://www.openstreetmap.org/way/939226216
+952165765,,,house,False,False,2,5.6,0.0,True,flat,,,211.4,213,-72.2,200.8,https://www.openstreetmap.org/way/952165765
+952821757,,,yes,False,False,1,2.8,0.0,True,flat,,,164.8,214,-17.1,-212.9,https://www.openstreetmap.org/way/952821757
+952165723,,,yes,False,False,1,2.8,0.0,True,flat,,,636.5,215,214.4,11.1,https://www.openstreetmap.org/way/952165723
+939148475,,,yes,False,False,2,5.6,0.0,True,flat,,,222.3,216,214.4,28.6,https://www.openstreetmap.org/way/939148475
+941674696,,Calle 1 Sur,yes,False,False,1,2.8,0.0,True,flat,,,163.0,217,206.3,-67.3,https://www.openstreetmap.org/way/941674696
+952165745,,,house,False,False,2,5.6,0.0,True,flat,,,239.1,217,182.3,118.0,https://www.openstreetmap.org/way/952165745
+941521632,Integrasalud,Calle 2 Norte 814,yes,False,False,1,2.8,0.0,True,flat,,,37.5,218,98.2,195.1,https://www.openstreetmap.org/way/941521632
+952165764,,,house,False,False,1,2.8,0.0,True,flat,,,151.7,218,-103.6,191.8,https://www.openstreetmap.org/way/952165764
+939226219,,2 Poniente,house,False,False,1,2.5,0.0,True,flat,,,130.4,219,-207.6,-69.3,https://www.openstreetmap.org/way/939226219
+952165766,,,house,False,False,1,2.8,0.0,True,flat,,,72.9,219,-83.3,202.4,https://www.openstreetmap.org/way/952165766
+309684102,Gales Creaciones,,yes,False,False,2,5.0,0.0,True,flat,,,427.2,220,196.3,-100.0,https://www.openstreetmap.org/way/309684102
+565220670,Conservador de Bienes Raices,Calle 1 Norte,commercial,False,False,2,5.6,0.0,True,flat,,,317.6,220,211.2,63.2,https://www.openstreetmap.org/way/565220670
+939226220,,2 Poniente,house,False,False,1,2.5,0.0,True,flat,,,118.6,220,-156.7,153.8,https://www.openstreetmap.org/way/939226220
+939226231,Centro dentral Santa Marta,Calle 2 Norte 830A,yes,False,False,2,5.6,0.0,True,flat,,,200.7,220,112.2,189.7,https://www.openstreetmap.org/way/939226231
+952097287,,,house,False,False,1,2.8,0.0,True,flat,,,61.3,220,-168.3,-141.1,https://www.openstreetmap.org/way/952097287
+952814881,,,house,False,False,1,2.8,0.0,True,flat,,,64.6,221,-66.7,-210.3,https://www.openstreetmap.org/way/952814881
+310550392,,Calle 2 Sur 853,public,False,False,3,8.4,0.0,True,flat,,,425.2,222,137.9,-174.4,https://www.openstreetmap.org/way/310550392
+944738561,,Avenida Isidoro del Solar,house,False,False,1,2.5,0.0,True,flat,,,51.9,222,-120.8,185.8,https://www.openstreetmap.org/way/944738561
+952097289,,,yes,False,False,2,5.6,0.0,True,flat,,,236.4,223,165.2,-150.1,https://www.openstreetmap.org/way/952097289
+952165753,,,yes,False,False,1,2.8,0.0,True,flat,,,90.8,223,131.4,180.5,https://www.openstreetmap.org/way/952165753
+939226215,,2 Poniente 1020-1030,house,False,False,2,5.0,0.0,True,flat,,,105.0,224,-179.2,-133.7,https://www.openstreetmap.org/way/939226215
+939226221,,2 Poniente,house,False,False,1,2.5,0.0,True,flat,,,103.0,224,-156.1,160.5,https://www.openstreetmap.org/way/939226221
+941674697,,Calle 1 Sur 914,yes,False,False,1,2.8,0.0,True,flat,,,156.0,224,214.8,-64.2,https://www.openstreetmap.org/way/941674697
+939226228,,Calle 2 Norte 666,house,False,False,2,5.6,0.0,True,flat,,,188.9,225,-101.6,200.6,https://www.openstreetmap.org/way/939226228
+310246575,Edificio Aranjuez,Calle 2 Sur,public,False,False,7,19.6,0.0,True,flat,,,486.0,226,-0.5,-226.5,https://www.openstreetmap.org/way/310246575
+670712352,,2 Poniente,house,False,False,1,2.5,0.0,True,flat,,,123.5,227,-189.0,125.7,https://www.openstreetmap.org/way/670712352
+939226209,Nuevos aires,Calle 2 Sur,yes,False,False,1,2.8,0.0,True,flat,,,145.9,227,-167.5,-152.8,https://www.openstreetmap.org/way/939226209
+952165749,,,house,False,False,1,2.8,0.0,True,flat,,,141.7,227,186.2,130.7,https://www.openstreetmap.org/way/952165749
+952165718,,,yes,False,False,1,2.8,0.0,True,flat,,,477.0,228,-227.8,3.6,https://www.openstreetmap.org/way/952165718
+664931621,Dirección de Vialidad MOP,Calle 2 Norte 740,public,False,False,2,5.6,0.0,True,flat,,,96.7,229,11.9,229.1,https://www.openstreetmap.org/way/664931621
+952821758,,,house,False,False,2,5.6,0.0,True,flat,,,246.9,230,34.3,-227.8,https://www.openstreetmap.org/way/952821758
+392092982,Tia Claudia,1 norte 585,yes,False,False,1,2.5,0.0,True,flat,,,424.9,231,-203.2,109.0,https://www.openstreetmap.org/way/392092982
+952097291,,,house,False,False,2,5.8,0.0,True,flat,,,276.7,231,199.8,-116.2,https://www.openstreetmap.org/way/952097291
+939226200,,,yes,False,False,2,5.6,0.0,True,flat,,,479.7,232,65.5,-222.5,https://www.openstreetmap.org/way/939226200
+941521629,,Calle 2 Norte 733,house,False,False,1,2.5,0.0,True,flat,,,53.3,232,-15.7,231.8,https://www.openstreetmap.org/way/941521629
+939226227,,Avenida Isidoro del Solar,house,False,False,1,2.5,0.0,True,flat,,,188.8,233,-119.9,199.6,https://www.openstreetmap.org/way/939226227
+944738563,,Calle 1 Norte,house,False,False,1,2.5,0.0,True,flat,,,201.7,233,-221.5,72.7,https://www.openstreetmap.org/way/944738563
+939148452,Colegio Corporación de Educación La Araucana,Calle 2 Norte 740,house,False,False,2,5.0,0.0,True,flat,,,175.0,234,-3.7,234.2,https://www.openstreetmap.org/way/939148452
+939148474,Principal financiera,Calle 1 Norte,yes,False,False,2,5.6,0.0,True,flat,,,135.6,235,233.3,28.7,https://www.openstreetmap.org/way/939148474
+939226212,,2 Poniente 1010,yes,False,False,2,5.6,0.0,True,flat,,,132.1,235,-182.0,-148.8,https://www.openstreetmap.org/way/939226212
+952814880,,,house,False,False,1,2.8,0.0,True,flat,,,881.1,235,-58.7,-227.8,https://www.openstreetmap.org/way/952814880
+939226222,,Avenida Isidoro del Solar 97,house,False,False,1,2.5,0.0,True,flat,,,99.1,236,-158.4,174.4,https://www.openstreetmap.org/way/939226222
+952165743,,,yes,False,False,2,5.6,0.0,True,flat,,,321.1,236,215.7,94.5,https://www.openstreetmap.org/way/952165743
+799509091,San Francisco de Asis,Calle 1 Sur,church,False,False,4,11.2,0.0,True,flat,,,607.6,237,-236.1,-20.0,https://www.openstreetmap.org/way/799509091
+939226235,,Calle 2 Norte,house,False,False,2,5.0,0.0,True,flat,,,252.9,237,152.7,181.0,https://www.openstreetmap.org/way/939226235
+952165758,,,house,False,False,1,2.8,0.0,True,flat,,,59.7,237,145.4,186.9,https://www.openstreetmap.org/way/952165758
+281752348,,Calle 2 Sur,yes,False,False,2,5.6,0.0,True,flat,,,257.7,239,-127.9,-202.1,https://www.openstreetmap.org/way/281752348
+939226198,,Calle 2 Sur,yes,False,False,3,8.8,0.0,True,flat,,,341.6,239,162.1,-175.0,https://www.openstreetmap.org/way/939226198
+939148451,,Cardenal Raúl Silva Henríquez 720,house,False,False,2,5.0,0.0,True,flat,,,162.6,240,-25.8,238.4,https://www.openstreetmap.org/way/939148451
+939148489,,Calle 1 Sur,yes,False,False,2,5.6,0.0,True,flat,,,886.0,240,233.2,-58.7,https://www.openstreetmap.org/way/939148489
+952165772,,,house,False,False,1,2.8,0.0,True,flat,,,150.4,240,-217.8,99.7,https://www.openstreetmap.org/way/952165772
+1167599149,,,yes,False,False,3,10.0,0.0,False,flat,,,251.9,242,89.1,-224.8,https://www.openstreetmap.org/way/1167599149
+941980854,,2 Poniente,house,False,False,1,2.5,0.0,True,flat,,,142.8,243,-192.6,148.8,https://www.openstreetmap.org/way/941980854
+944738567,,2 Poniente,house,False,False,1,2.5,0.0,True,flat,,,586.7,243,-240.4,31.9,https://www.openstreetmap.org/way/944738567
+1167599148,,,yes,False,False,3,10.0,0.0,False,flat,,,221.6,243,62.7,-234.5,https://www.openstreetmap.org/way/1167599148
+642215982,Fiscalía Regional del Maule,Calle 2 Norte 781,yes,False,False,6,16.8,0.0,True,flat,,,457.4,244,28.4,241.9,https://www.openstreetmap.org/way/642215982
+939148491,BBVA,Calle 1 Sur,yes,False,False,2,5.0,0.0,True,flat,,,281.6,244,221.5,-101.7,https://www.openstreetmap.org/way/939148491
+952165719,,,yes,False,False,1,2.8,0.0,True,flat,,,79.7,244,-244.2,-6.1,https://www.openstreetmap.org/way/952165719
+952165744,,,yes,False,False,2,5.6,0.0,True,flat,,,275.7,244,219.4,107.0,https://www.openstreetmap.org/way/952165744
+281752349,,Calle 2 Sur,yes,False,False,1,2.8,0.0,True,flat,,,118.8,245,-142.9,-199.5,https://www.openstreetmap.org/way/281752349
+952165717,,,house,False,False,1,2.8,0.0,True,flat,,,208.7,245,-238.2,55.8,https://www.openstreetmap.org/way/952165717
+952821759,,,house,False,False,2,5.6,0.0,True,flat,,,102.6,247,35.1,-244.4,https://www.openstreetmap.org/way/952821759
+944738564,,Calle 1 Norte,house,False,False,1,2.5,0.0,True,flat,,,192.9,248,-237.3,71.7,https://www.openstreetmap.org/way/944738564
+952165725,,,house,False,False,1,2.8,0.0,True,flat,,,315.7,248,245.6,-32.8,https://www.openstreetmap.org/way/952165725
+952165748,,,house,False,False,1,2.8,0.0,True,flat,,,110.5,248,189.0,160.0,https://www.openstreetmap.org/way/952165748
+939148473,,Calle 1 Norte 948,yes,False,False,2,5.6,0.0,True,flat,,,149.9,250,248.6,22.0,https://www.openstreetmap.org/way/939148473
+364439678,Edificio Portal Maule,Calle 1 Norte,yes,False,False,7,19.6,0.0,True,flat,,,1381.0,252,239.7,78.9,https://www.openstreetmap.org/way/364439678
+952821766,,,house,False,False,1,2.8,0.0,True,flat,,,447.9,252,5.5,-251.8,https://www.openstreetmap.org/way/952821766
+939226234,,Calle 2 Norte,yes,False,False,1,2.5,0.0,True,flat,,,59.7,253,172.5,184.5,https://www.openstreetmap.org/way/939226234
+941980855,,2 Poniente,house,False,False,1,2.5,0.0,True,flat,,,176.0,253,-195.4,161.2,https://www.openstreetmap.org/way/941980855
+939226210,,Calle 2 Sur,house,False,False,1,2.8,0.0,True,flat,,,169.7,254,-164.3,-193.7,https://www.openstreetmap.org/way/939226210
+939226230,,Calle 2 Norte,yes,False,False,2,5.6,0.0,True,flat,,,182.3,254,128.5,219.4,https://www.openstreetmap.org/way/939226230
+1167599150,,,yes,False,False,3,10.0,0.0,False,flat,,,79.8,254,91.5,-236.6,https://www.openstreetmap.org/way/1167599150
+941980871,,Cardenal Raúl Silva Henríquez,house,False,False,1,2.5,0.0,True,flat,,,153.1,255,-24.1,254.0,https://www.openstreetmap.org/way/941980871
+392084814,Condominio Nuevo Centro,2 Poniente 1061,yes,False,False,8,22.4,0.0,True,flat,,,1460.5,257,-235.0,-103.2,https://www.openstreetmap.org/way/392084814
+941521627,,2 Poniente,house,False,False,1,2.5,0.0,True,flat,,,26.2,257,-180.7,183.3,https://www.openstreetmap.org/way/941521627
+952814882,,,yes,False,False,1,2.8,0.0,True,flat,,,1044.3,257,-110.9,-231.5,https://www.openstreetmap.org/way/952814882
+952814896,,,house,False,False,1,2.8,0.0,True,flat,,,195.1,257,-140.2,-215.8,https://www.openstreetmap.org/way/952814896
+939226229,Conavicop,Calle 2 Norte,yes,False,False,2,5.6,0.0,True,flat,,,80.0,258,138.9,217.3,https://www.openstreetmap.org/way/939226229
+952821760,,,house,False,False,2,5.6,0.0,True,flat,,,202.1,258,30.7,-255.9,https://www.openstreetmap.org/way/952821760
+952821811,,,house,False,False,2,5.6,0.0,True,flat,,,716.2,259,77.6,-247.5,https://www.openstreetmap.org/way/952821811
+952165746,,,house,False,False,1,2.8,0.0,True,flat,,,249.6,260,227.6,126.1,https://www.openstreetmap.org/way/952165746
+952165747,,,house,False,False,1,2.8,0.0,True,flat,,,143.3,260,191.9,175.8,https://www.openstreetmap.org/way/952165747
+214851536,Centro de Extensión Universidad de Talca,Calle 2 Norte 685,yes,False,False,3,8.4,0.0,True,flat,,,1384.3,261,-74.2,250.5,https://www.openstreetmap.org/way/214851536
+939148492,Banco de Chile,Calle 1 Sur 942,yes,False,False,2,5.0,0.0,True,flat,,,264.7,261,238.5,-106.5,https://www.openstreetmap.org/way/939148492
+939226211,,Calle 2 Sur,house,False,False,1,2.5,0.0,True,flat,,,80.5,261,-182.0,-187.5,https://www.openstreetmap.org/way/939226211
+952165726,,,house,False,False,1,2.8,0.0,True,flat,,,144.8,261,261.3,10.6,https://www.openstreetmap.org/way/952165726
+808377016,Hostal La Serena,1 Sur 531,yes,False,False,1,2.8,0.0,True,flat,,,728.1,262,-262.0,-8.9,https://www.openstreetmap.org/way/808377016
+939148472,Servicio electoral,Calle 1 Norte,yes,False,False,2,5.6,0.0,True,flat,,,108.0,262,260.5,25.5,https://www.openstreetmap.org/way/939148472
+941980856,,2 Poniente,house,False,False,1,2.5,0.0,True,flat,,,84.7,262,-198.3,171.2,https://www.openstreetmap.org/way/941980856
+813330089,,Calle 2 Sur,yes,False,False,10,28.0,0.0,True,flat,,,1695.4,263,130.2,-229.0,https://www.openstreetmap.org/way/813330089
+941521626,Caja 18,2 Poniente,house,False,False,1,2.5,0.0,True,flat,,,31.2,264,-185.2,187.8,https://www.openstreetmap.org/way/941521626
+941521628,Laboratorio biomolecular,Calle 2 Norte 641,yes,False,False,2,5.6,0.0,True,flat,,,35.3,265,-110.4,240.5,https://www.openstreetmap.org/way/941521628
+939148456,,Calle 1 Oriente 1335,yes,False,False,10,28.0,0.0,True,flat,,,507.4,267,48.3,262.9,https://www.openstreetmap.org/way/939148456
+939148490,,Calle 1 Sur 971,yes,False,False,2,5.6,0.0,True,flat,,,793.8,267,260.1,-61.4,https://www.openstreetmap.org/way/939148490
+952814889,,,house,False,False,1,2.8,0.0,True,flat,,,197.9,267,-163.2,-211.5,https://www.openstreetmap.org/way/952814889
+939226233,Constructora POCURO,Calle 2 Norte,yes,False,False,2,5.6,0.0,True,flat,,,91.7,268,192.6,185.8,https://www.openstreetmap.org/way/939226233
+952814883,,,house,False,False,1,2.8,0.0,True,flat,,,146.4,269,-182.6,-197.5,https://www.openstreetmap.org/way/952814883
+310009705,Edificio Don Genaro,,public,False,False,3,10.0,0.0,False,flat,,,475.1,270,223.8,150.2,https://www.openstreetmap.org/way/310009705
+939226224,Consulta médica,2 Poniente 1273,house,False,False,1,2.5,0.0,True,flat,,,71.6,271,-183.5,200.0,https://www.openstreetmap.org/way/939226224
+952097284,,Calle 1 Sur,house,False,False,1,2.8,0.0,True,flat,,,773.2,272,-261.6,-76.0,https://www.openstreetmap.org/way/952097284
+939226226,,Calle 2 Norte,house,False,False,1,2.5,0.0,True,flat,,,39.8,273,-128.3,241.1,https://www.openstreetmap.org/way/939226226
+952178466,,,yes,False,False,1,2.8,0.0,True,flat,,,138.7,273,152.2,226.7,https://www.openstreetmap.org/way/952178466
+941980877,,Cardenal Raúl Silva Henríquez,house,False,False,1,2.5,0.0,True,flat,,,93.0,274,-3.8,274.3,https://www.openstreetmap.org/way/941980877
+952821761,,,house,False,False,2,5.6,0.0,True,flat,,,211.2,274,26.6,-273.1,https://www.openstreetmap.org/way/952821761
+939148471,,Calle 1 Norte 964-966,yes,False,False,2,5.6,0.0,True,flat,,,119.6,275,273.6,24.9,https://www.openstreetmap.org/way/939148471
+941980878,,Cardenal Raúl Silva Henríquez,house,False,False,1,2.5,0.0,True,flat,,,176.5,275,-11.7,274.3,https://www.openstreetmap.org/way/941980878
+952165720,,,house,False,False,1,2.8,0.0,True,flat,,,243.6,275,-274.4,-7.9,https://www.openstreetmap.org/way/952165720
+952814895,,,house,False,False,1,2.8,0.0,True,flat,,,180.4,275,-140.0,-236.5,https://www.openstreetmap.org/way/952814895
+941980876,,1 Poniente,house,False,False,1,2.5,0.0,True,flat,,,71.5,276,18.3,275.3,https://www.openstreetmap.org/way/941980876
+952165771,,,house,False,False,1,2.8,0.0,True,flat,,,351.9,276,-264.9,76.4,https://www.openstreetmap.org/way/952165771
+941980872,,Cardenal Raúl Silva Henríquez 1354,house,False,False,1,2.5,0.0,True,flat,,,144.3,277,-26.3,275.3,https://www.openstreetmap.org/way/941980872
+952814879,,,house,False,False,1,2.8,0.0,True,flat,,,129.0,277,-66.8,-268.5,https://www.openstreetmap.org/way/952814879
+952178465,,,yes,False,False,1,2.8,0.0,True,flat,,,334.3,279,166.2,224.2,https://www.openstreetmap.org/way/952178465
+952821814,,,yes,False,False,1,2.8,0.0,True,flat,,,119.7,280,95.7,-263.5,https://www.openstreetmap.org/way/952821814
+939226197,,Calle 2 Sur,yes,False,False,1,2.8,0.0,True,flat,,,1261.9,282,215.1,-181.9,https://www.openstreetmap.org/way/939226197
+939226225,,Calle 2 Norte 613,house,False,False,2,5.0,0.0,True,flat,,,91.7,282,-136.8,246.4,https://www.openstreetmap.org/way/939226225
+939226232,,Calle 2 Norte,house,False,False,1,2.5,0.0,True,flat,,,405.7,282,185.8,212.7,https://www.openstreetmap.org/way/939226232
+952814876,,,house,False,False,2,5.6,0.0,True,flat,,,205.6,283,-98.7,-265.0,https://www.openstreetmap.org/way/952814876
+939226213,,Calle 2 Sur,yes,False,False,1,2.8,0.0,True,flat,,,126.5,285,-215.4,-186.3,https://www.openstreetmap.org/way/939226213
+952165728,,,yes,False,False,1,2.8,0.0,True,flat,,,78.2,285,283.3,-31.3,https://www.openstreetmap.org/way/952165728
+952814890,,,house,False,False,1,2.8,0.0,True,flat,,,139.2,285,-163.9,-233.1,https://www.openstreetmap.org/way/952814890
+939226223,Centro de Diagnóstico Diagonal,Avenida Isidoro del Solar 99,yes,False,False,2,5.0,0.0,True,flat,,,248.1,286,-188.8,215.3,https://www.openstreetmap.org/way/939226223
+939226236,,Calle 2 Norte 930,house,False,False,1,2.5,0.0,True,flat,,,791.5,286,230.1,170.5,https://www.openstreetmap.org/way/939226236
+952814884,,,house,False,False,2,5.6,0.0,True,flat,,,421.7,286,-184.5,-218.0,https://www.openstreetmap.org/way/952814884
+952821812,,,yes,False,False,2,5.6,0.0,True,flat,,,449.6,286,74.8,-275.7,https://www.openstreetmap.org/way/952821812
+364439677,Edificio 2000,Calle 1 Norte,yes,False,False,4,11.2,0.0,True,flat,,,1455.5,287,273.5,86.2,https://www.openstreetmap.org/way/364439677
+952165727,,,house,False,False,1,2.8,0.0,True,flat,,,264.8,287,286.8,5.6,https://www.openstreetmap.org/way/952165727
+952821762,,,house,False,False,1,2.8,0.0,True,flat,,,163.9,287,29.8,-285.7,https://www.openstreetmap.org/way/952821762
+939148470,Doña cristina,,yes,False,False,4,11.2,0.0,True,flat,,,108.7,288,287.5,21.3,https://www.openstreetmap.org/way/939148470
+952814878,,,house,False,False,1,2.8,0.0,True,flat,,,168.3,288,-68.4,-279.6,https://www.openstreetmap.org/way/952814878
+952814893,,,house,False,False,1,2.8,0.0,True,flat,,,136.0,288,-124.4,-259.7,https://www.openstreetmap.org/way/952814893
+664943427,Venezsia Pizza,Calle 2 Norte 99,yes,False,False,2,5.6,0.0,True,flat,,,111.9,289,-150.6,246.8,https://www.openstreetmap.org/way/664943427
+952165721,,,house,False,False,1,2.8,0.0,True,flat,,,326.1,289,-288.8,-12.7,https://www.openstreetmap.org/way/952165721
+952178463,,,house,False,False,2,5.6,0.0,True,flat,,,220.2,289,108.1,268.1,https://www.openstreetmap.org/way/952178463
+1167599146,,,yes,False,False,3,10.0,0.0,False,flat,,,353.8,289,113.9,-265.2,https://www.openstreetmap.org/way/1167599146
+952101809,,,house,False,False,1,2.8,0.0,True,flat,,,71.6,291,-284.2,62.2,https://www.openstreetmap.org/way/952101809
+939148469,,,yes,False,False,2,7.0,0.0,True,flat,,,254.7,292,291.4,-21.6,https://www.openstreetmap.org/way/939148469
+941980874,,Cardenal Raúl Silva Henríquez,house,False,False,1,2.5,0.0,True,flat,,,145.7,295,-5.5,294.8,https://www.openstreetmap.org/way/941980874
+941980875,,1 Poniente,house,False,False,1,2.5,0.0,True,flat,,,174.8,295,14.5,294.7,https://www.openstreetmap.org/way/941980875
+944738565,,Calle 1 Norte,house,False,False,1,2.5,0.0,True,flat,,,62.5,295,-281.6,86.1,https://www.openstreetmap.org/way/944738565
+952814877,,,house,False,False,2,5.6,0.0,True,flat,,,112.5,295,-96.2,-278.5,https://www.openstreetmap.org/way/952814877
+944738566,,3 Poniente,house,False,False,1,2.8,0.0,True,flat,,,1060.5,296,-295.1,16.3,https://www.openstreetmap.org/way/944738566
+952821764,,,house,False,False,2,5.6,0.0,True,flat,,,129.0,297,-12.3,-296.6,https://www.openstreetmap.org/way/952821764
+310550395,Centro Español,Calle 1 Sur,yes,False,False,2,5.6,0.0,True,flat,,,871.7,298,292.2,-57.7,https://www.openstreetmap.org/way/310550395
+952165750,,,house,False,False,1,2.8,0.0,True,flat,,,153.0,298,248.4,164.4,https://www.openstreetmap.org/way/952165750
+952814892,,,house,False,False,1,2.8,0.0,True,flat,,,200.4,298,-148.4,-258.4,https://www.openstreetmap.org/way/952814892
+952821765,Centro Cultural La Candelaria,Calle 3 Sur 767,house,False,False,1,2.8,0.0,True,flat,,,150.1,298,-22.0,-297.4,https://www.openstreetmap.org/way/952821765
+952821813,,,yes,False,False,2,5.6,0.0,True,flat,,,139.1,298,63.8,-291.2,https://www.openstreetmap.org/way/952821813
+939226196,Copeuch,Calle 2 Sur,yes,False,False,1,2.8,0.0,True,flat,,,326.5,299,187.8,-232.4,https://www.openstreetmap.org/way/939226196
+952178467,,,house,False,False,1,2.8,0.0,True,flat,,,177.7,299,194.7,227.5,https://www.openstreetmap.org/way/952178467
