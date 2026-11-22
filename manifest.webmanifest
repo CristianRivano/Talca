@@ -1,0 +1,12 @@
+{
+  "name": "Talca 3D · Centro urbano",
+  "short_name": "Talca 3D",
+  "description": "Mapa 3D interactivo del centro urbano de Talca, Chile.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#3B141A",
+  "theme_color": "#3B141A",
+  "icons": [{"src":"talca-logo.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
